@@ -1,0 +1,5 @@
+<script>
+    var cfrm_email_title = '<?php echo $cfrm_email_title; ?>';
+    var cfrm_receiver_email = '<?php echo $cfrm_receiver_email; ?>';
+</script>
+
