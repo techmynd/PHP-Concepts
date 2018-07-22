@@ -1,0 +1,16 @@
+Global scope
+============
+
+$page_Name = "some-name"
+
+This $page_Name can be accesed inside a function by following method
+
+
+
+function contact_form_shortcode() {
+
+	 global $page_Name;
+         echo $page_Name;
+
+}
+
