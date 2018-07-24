@@ -1,0 +1,6 @@
+if( isset($_POST['passVarOne']) && isset($_POST['passVarTwo']) && isset($_POST['passVarThree']) ) {
+	// trim and sanitize variables
+	$senderName = strip_tags(trim($_POST['passVarOne']));
+	$senderEmail =  strip_tags(trim($_POST['passVarTwo']));
+	$senderMessage = strip_tags(trim($_POST['passVarThree']));
+?>
