@@ -1,0 +1,51 @@
+php.ini file
+xampp\php\php.ini
+
+
+find [mail function]
+
+comment these
+===============
+SMTP=localhost
+; smtp_port=25
+
+change this
+===========
+sendmail_path = 
+sendmail_path = E:\xampp\sendmail\sendmail.exe
+or
+sendmail_path = "\"E:\xampp\sendmail\sendmail.exe\" -t"
+
+
+
+
+
+
+
+
+and then 
+
+xampp\sendmail\sendmail.ini
+
+change SMTP
+===========
+
+smtp_server=smtp.gmail.com
+
+smtp_port=587
+smtp_ssl=tls
+
+auth_username=
+auth_password=
+
+restart xampp
+
+
+test it
+<?php mail('me@email.com', 'Sample mail', 'Sample ontent', 'From: me@server.com'); ?>
+
+
+
+
+if you are using gamil as SMTP then from google account settings and security allow less secure apps to send email
+
