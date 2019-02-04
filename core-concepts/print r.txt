@@ -1,0 +1,8 @@
+
+$ages = [20, 30, 40, 50];
+print_r($ages);
+
+print it in readable format
+Use print_r to print anything in readable format.
+
+Sometimes echo does not work but print_r will

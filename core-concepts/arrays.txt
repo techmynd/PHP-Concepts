@@ -1,0 +1,74 @@
+indexed arrays
+==============
+===============
+$ages = [20, 30, 40];
+
+overide a value in array
+------------------------
+$ages[1] = 25;
+
+add value in array
+--------------------
+
+$ages[] = 60;
+or
+array_push($ages, 70);
+
+
+count number of items in array
+-------------------------------
+
+echo count($ages); // will print 3 in above case
+
+merge array
+-----------
+
+$arrayThree = array_merge($arrayTwo, $arrayOne);
+print_r($arrayThree);
+
+
+
+
+
+
+
+
+
+associative arrays (key, value pairs)
+==================
+==================
+
+$peopleAges = ['John'=>'70', 'Ali'=>'40'];
+john is key and 70 is value
+We access value by using key
+echo $peopleAges['john'];
+or
+print_r($peopleAges);
+
+add in an associative array
+$peopleAges['Nauman'] = 50;
+
+count
+echo count($peopleAges);
+
+merge
+$arrayThree = array_merge($arrayTwo, $arrayOne);
+
+
+
+
+
+
+
+
+
+
+
+
+
+multi-dimensional arrays
+
+==========================
+
+
+
