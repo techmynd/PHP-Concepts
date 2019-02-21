@@ -1,0 +1,9 @@
+get / post vars with htmlspecialchars
+
+
+<?php 
+
+$getEmail =  htmlspecialchars($_POST['email']);
+
+?>
+
